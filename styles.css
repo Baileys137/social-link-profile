@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   flex-direction: column;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    background-color: hsl(0, 0%, 12%);
+    color:  hsl(0, 0%, 100%);
+    max-width: 400px;
+    padding: 24px;
+    border-radius: 10px;
+
+}
+.container h1{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.container h1 span{
+    color: hsl(75, 94%, 57%);
+    display: block;
+    font-size: 1rem;
+    margin: 0.5rem 0 1rem;
+}
+.container p{
+    color: #ffff;
+}
+.container img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 1.5rem;
+}
+
+.container ul{
+    display: grid;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+.container ul li button {
+    background-color: hsl(0, 0%, 18%);
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.container a:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+.container a{
+    color: #fff;
+    text-decoration: none;
+}
+.attribution {
+     font-size: 11px; text-align: center; 
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
